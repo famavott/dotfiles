@@ -1,0 +1,5 @@
+[user]
+	name = Matt Favoino
+	email = mattfavoino@gmail.com
+[core]
+	editor = sublime -n -w
