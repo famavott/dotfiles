@@ -1,0 +1,20 @@
+{
+    "bold_folder_labels": true,
+    "color_scheme": "Packages/User/Monokai Extended (Flake8Lint).tmTheme",
+    "font_face": "Menlo",
+    "font_size": 13,
+    "highlight_modified_tabs": true,
+    "ignored_packages":
+    [
+        "Vintage"
+    ],
+    "rulers":
+    [
+        72,
+        79,
+        100
+    ],
+    "theme": "Adaptive.sublime-theme",
+    "translate_tabs_to_spaces": true,
+    "word_wrap": true
+}

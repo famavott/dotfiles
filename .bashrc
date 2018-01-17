@@ -60,7 +60,7 @@ export PS1="\[\e[32m\]\W\[\e[m\] \[\e[31;57m\]\`parse_git_branch\`\[\e[m\]🍺$ 
 
 alias pgstart='pg_ctl -D /usr/local/var/postgres/ -l /usr/local/var/postgres/server.log start'
 
-alias makeenv='python3 -m venv ENV && source ENV/bin/activate'
+alias makeenv='python3.6 -m venv ENV && source ENV/bin/activate'
 
 
 
