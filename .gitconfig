@@ -1,5 +1,14 @@
 [user]
 	name = Matt Favoino
-	email = mattfavoino@gmail.com
+	email = 18315501+famavott@users.noreply.github.com
 [core]
-	editor = sublime -n -w
+	editor = code --wait
+    excludesfile = /Users/mfavoino/.gitignore_global
+[alias]
+co = checkout
+cob = checkout -b
+cm = !git add -A && git commit -m
+browse = "!f() { REPO_URL=$(git config remote.origin.url); open ${REPO_URL%%.git}; }; f"
+ec = config --global -e
+up = !git pull --rebase --prune $@ && git submodule update --init --recursive
+st = status
