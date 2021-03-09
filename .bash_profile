@@ -73,7 +73,7 @@ alias chrome_jobs='python /Users/mfavoino/projects/utility_scripts/job_sites.py'
 
 export PS1="\[\e[32m\]\W\[\e[m\] \[\e[31;57m\]\`parse_git_branch\`\[\e[m\]🍺$ "
 
-export JAVA_HOME=$(usr/libexec/java_home)
+# export JAVA_HOME=$(usr/libexec/java_home)
 
 export PATH=/usr/local/bin:/usr/local/sbin:$PATH
 

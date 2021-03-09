@@ -50,17 +50,15 @@ function parse_git_dirty {
 
 ln -sf /Library/Frameworks/Python.framework/Versions/3.6/bin/python3 python3
 
-alias python='python3.6'
+alias python='python3.7'
 
 alias python2='python2.7'
-
-alias python3.5='python3.5'
 
 export PS1="\[\e[32m\]\W\[\e[m\] \[\e[31;57m\]\`parse_git_branch\`\[\e[m\]🍺$ "
 
 alias pgstart='pg_ctl -D /usr/local/var/postgres/ -l /usr/local/var/postgres/server.log start'
 
-alias makeenv='python3.6 -m venv ENV && source ENV/bin/activate'
+alias makeenv='python3.7 -m venv ENV && source ENV/bin/activate'
 
 
 
